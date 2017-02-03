@@ -76,6 +76,7 @@
 /* tables */
 .summarize table {
   border: 1px solid #575c63;
+  border-collapse: collapse;
 }
 .summarize table thead {
   font-family: Raleway-Regular, Arial, sans-serif;
