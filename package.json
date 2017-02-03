@@ -1,0 +1,19 @@
+{
+  "name": "summarize.css",
+  "version": "1.0.0",
+  "description": "CSS Framework",
+  "main": "summarize.css",
+  "author": "serjihsklovski",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serjihsklovski/summarize.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/serjihsklovski/summarize.css/issues"
+  },
+  "homepage": "https://github.com/serjihsklovski/summarize.css",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
