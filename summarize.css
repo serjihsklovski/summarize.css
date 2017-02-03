@@ -1,1 +1,5 @@
+/* normalize */
 @import "node_modules/normalize.css/normalize.css";
+
+/* define fonts */
+@import "fonts.css";
