@@ -1,0 +1,37 @@
+@import "colors";
+
+.summarize {
+  table {
+    border: 1px solid @palette-table-border;
+
+    thead {
+      font-family: Raleway-Regular, Arial, sans-serif;
+      font-size: 1.2em;
+      font-weight: normal;
+    }
+
+    tbody, tfoot {
+      font-family: SourceSansPro-Regular, Arial, sans-serif;
+    }
+
+    th {
+      padding: 12px 8px 12px 8px;
+      background-color: @palette-table-headers-bg;
+      color: @palette-table-headers-fg;
+    }
+
+    tr:nth-child(even) {
+      background-color: @palette-table-rows-even-bg;
+      color: @palette-table-rows-even-fg;
+    }
+
+    tr:nth-child(odd) {
+      background-color: @palette-table-rows-odd-bg;
+      color: @palette-table-rows-odd-fg
+    }
+
+    td {
+      padding: 8px;
+    }
+  }
+}
