@@ -1,5 +1,5 @@
 /* normalize */
-@import "../node_modules/normalize.css";
+@import "~normalize.css";
 /* define fonts */
 /* all fonts using by summarize.css */
 @font-face {
@@ -33,3 +33,43 @@
 /* define site's palette */
 /* base site's palette */
 /* aliases */
+/* main section */
+main.summarize {
+  background-color: #f0f1f3;
+  color: #575c63;
+}
+main.summarize h1,
+main.summarize h2,
+main.summarize h3,
+main.summarize h4,
+main.summarize h5,
+main.summarize h6 {
+  font-weight: normal;
+}
+main.summarize h1 {
+  font-family: Raleway-Thin, Arial, sans-serif;
+  font-size: 4em;
+}
+main.summarize h2 {
+  font-family: Raleway-ExtraLight, Arial, sans-serif;
+  font-size: 3.5em;
+}
+main.summarize h3 {
+  font-family: Raleway-Light, Arial, sans-serif;
+  font-size: 3em;
+}
+main.summarize h4 {
+  font-family: Raleway-Regular, Arial, sans-serif;
+  font-size: 2.5em;
+}
+main.summarize h5 {
+  font-family: Raleway-Medium, Arial, sans-serif;
+  font-size: 2em;
+}
+main.summarize h6 {
+  font-family: Raleway-SemiBold, Arial, sans-serif;
+  font-size: 1.5em;
+}
+main.summarize p {
+  font-family: SourceSansPro-Regular, Arial, sans-serif;
+}
