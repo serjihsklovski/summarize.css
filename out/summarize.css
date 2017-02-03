@@ -73,3 +73,32 @@
 .summarize p {
   font-family: SourceSansPro-Regular, Arial, sans-serif;
 }
+/* tables */
+.summarize table {
+  border: 1px solid #575c63;
+}
+.summarize table thead {
+  font-family: Raleway-Regular, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+.summarize table tbody,
+.summarize table tfoot {
+  font-family: SourceSansPro-Regular, Arial, sans-serif;
+}
+.summarize table th {
+  padding: 12px 8px 12px 8px;
+  background-color: #575c63;
+  color: #f0f1f3;
+}
+.summarize table tr:nth-child(even) {
+  background-color: #afc0d7;
+  color: #1f2122;
+}
+.summarize table tr:nth-child(odd) {
+  background-color: #d6dde8;
+  color: #1f2122;
+}
+.summarize table td {
+  padding: 8px;
+}
