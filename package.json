@@ -13,7 +13,7 @@
     "url": "https://github.com/serjihsklovski/summarize.css/issues"
   },
   "homepage": "https://github.com/serjihsklovski/summarize.css",
-  "dependencies": {
+  "peerDependencies": {
     "normalize.css": "^5.0.0"
   }
 }
