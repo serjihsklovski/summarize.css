@@ -32,7 +32,10 @@
 }
 /* define site's palette */
 /* base site's palette */
-/* aliases */
+/* # aliases */
+/* ## main section */
+/* ## tables */
+/* ## buttons */
 /* main section */
 .summarize {
   background-color: #f0f1f3;
@@ -101,5 +104,5 @@
   color: #1f2122;
 }
 .summarize table td {
-  padding: 8px;
+  padding: 8px 16px;
 }
