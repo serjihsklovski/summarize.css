@@ -1,0 +1,46 @@
+@import "fonts";
+@import "colors";
+
+.summarize .btn {
+  @keyframes on_hover {
+    from {
+      background-color: #e2e6e6;
+      color: #6a7777;
+    }
+
+    to {
+      background-color: #6a7777;
+      color: #e2e6e6;
+    }
+  }
+
+  @keyframes on_unhover {
+    from {
+      background-color: #6a7777;
+      color: #e2e6e6;
+    }
+
+    to {
+      background-color: #e2e6e6;
+      color: #6a7777;
+    }
+  }
+
+  button {
+    font-family: SourceSansPro-Regular, Arial, sans-serif;
+    font-size: 1.2em;
+    background-color: @palette-button-common-bg;
+    color: @palette-button-common-fg;
+    border: 0;
+    padding: 8px;
+    animation: on_unhover 280ms;
+    animation-timing-function: ease-in;
+  }
+
+  button:hover {
+    background-color: ;
+    color: #e2e6e6;
+    animation: on_hover 280ms;
+    animation-timing-function: ease-out;
+  }
+}
