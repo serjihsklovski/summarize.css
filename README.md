@@ -4,5 +4,5 @@ CSS Framework
 ## Installing
 
 ```
-npm install summarize.css --legacy-bundling
+npm install summarize.css
 ```
