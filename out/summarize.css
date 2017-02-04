@@ -73,8 +73,21 @@
   font-family: Raleway-SemiBold, Arial, sans-serif;
   font-size: 1.5em;
 }
-.summarize p {
+.summarize p,
+.summarize a {
   font-family: SourceSansPro-Regular, Arial, sans-serif;
+}
+.summarize a {
+  text-decoration: none;
+}
+.summarize a:link {
+  color: #c74c77;
+}
+.summarize a:visited {
+  color: #1f2122;
+}
+.summarize a:hover {
+  text-decoration: underline;
 }
 /* tables */
 .summarize table {
