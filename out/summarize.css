@@ -121,12 +121,21 @@
   padding: 8px 16px;
 }
 /* forms */
-.summarize form table {
+.summarize form table,
+.summarize form tr,
+.summarize form td {
   background-color: #d6dde8;
 }
 .summarize form table input[type="text"],
+.summarize form tr input[type="text"],
+.summarize form td input[type="text"],
 .summarize form table input[type="password"],
-.summarize form table input[type="email"] {
+.summarize form tr input[type="password"],
+.summarize form td input[type="password"],
+.summarize form table input[type="email"],
+.summarize form tr input[type="email"],
+.summarize form td input[type="email"] {
+  outline: none;
   background-color: #d6dde8;
   border: none;
   border-bottom: 1px solid #575c63;
