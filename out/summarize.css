@@ -36,6 +36,7 @@
 /* ## main section */
 /* ## tables */
 /* ## buttons */
+/* ## forms */
 /* main section */
 .summarize {
   background-color: #f0f1f3;
@@ -118,4 +119,17 @@
 }
 .summarize table td {
   padding: 8px 16px;
+}
+/* forms */
+.summarize form table {
+  background-color: #d6dde8;
+}
+.summarize form table input[type="text"],
+.summarize form table input[type="password"],
+.summarize form table input[type="email"] {
+  background-color: #d6dde8;
+  border: none;
+  border-bottom: 1px solid #575c63;
+  font-family: SourceSansPro-Regular, Arial, sans-serif;
+  font-size: 1em;
 }
