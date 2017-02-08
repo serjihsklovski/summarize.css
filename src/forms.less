@@ -2,9 +2,17 @@
 @import "colors";
 
 .summarize {
-  form > {
+  form {
     table {
+      background-color: @palette-form-bg;
 
+      input[type="text"], input[type="password"], input[type="email"] {
+        background-color: @palette-form-bg;
+        border: none;
+        border-bottom: 1px solid @palette-base-color-2;
+        font-family: SourceSansPro-Regular, Arial, sans-serif;
+        font-size: 1em;
+      }
     }
   }
 }
