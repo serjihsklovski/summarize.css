@@ -3,17 +3,30 @@
 
 .summarize {
   form {
+    background-color: @color-form-bg;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+
     table, tr, td {
-      background-color: @palette-form-bg;
+      background-color: @color-form-bg;
 
       input[type="text"], input[type="password"], input[type="email"] {
         outline: none;
-        background-color: @palette-form-bg;
+        background-color: @color-form-bg;
         border: none;
-        border-bottom: 1px solid @palette-base-color-2;
+        border-bottom: 1px solid @palette-1-color-2;
         font-family: SourceSansPro-Regular, Arial, sans-serif;
         font-size: 1em;
       }
+    }
+  }
+
+  form > {
+    header {
+      background-color: @color-form-header-bg;
+      color: @color-form-header-fg;
+      font-family: Raleway-Regular, Arial, sans-serif;
+      font-size: 1.2em;
+      padding: 12px;
     }
   }
 }
