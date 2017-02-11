@@ -1,0 +1,34 @@
+@import "fonts";
+@import "colors";
+
+body.summarize > header {
+  background-color: @palette-header-bg;
+  color: @palette-header-fg;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+
+    li {
+      float: left;
+
+      a, a:link, a:visited {
+        display: block;
+        color: @palette-header-fg;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Raleway-Medium, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        transition: background-color 0.2s ease-in-out;
+      }
+
+      a:hover {
+        background-color: @palette-header-item-bg-hover;
+        color: #fcfcfe;
+      }
+    }
+  }
+}
