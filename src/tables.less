@@ -2,10 +2,11 @@
 
 .summarize {
   table {
-    border: 1px solid @palette-table-border;
     border-collapse: collapse;
+    border: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
 
-    thead {
+    thead, caption {
       font-family: Raleway-Regular, Arial, sans-serif;
       font-size: 1.2em;
       font-weight: normal;
@@ -15,10 +16,16 @@
       font-family: SourceSansPro-Regular, Arial, sans-serif;
     }
 
-    th {
+    caption, th {
       padding: 12px 8px 12px 8px;
       background-color: @palette-table-headers-bg;
       color: @palette-table-headers-fg;
+    }
+
+    caption {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      background-color: @palette-1-color-1;
     }
 
     tr:nth-child(even) {
