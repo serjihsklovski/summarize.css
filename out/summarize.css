@@ -1,5 +1,5 @@
 /* normalize */
-@import "~normalize.css";
+@import "../../normalize.css/summarize.css";
 /* define fonts */
 /* all fonts using by summarize.css */
 @font-face {
@@ -31,16 +31,23 @@
   src: url(../resources/fonts/SourceSansPro-Regular.ttf);
 }
 /* define site's palette */
-/* base site's palette */
+/* # site's palettes */
+/* ## palette 1 - cold */
+/* ## palette 2 - warm */
+/* ## palette 3 - grey scale */
 /* # aliases */
 /* ## main section */
 /* ## tables */
 /* ## buttons */
 /* ## forms */
+/* ## navigation */
 /* main section */
 .summarize {
-  background-color: #f0f1f3;
-  color: #575c63;
+  background-color: #f7f7f7;
+  color: #2e2e2e;
+}
+.summarize main {
+  margin: 0 128px;
 }
 .summarize h1,
 .summarize h2,
@@ -92,10 +99,12 @@
 }
 /* tables */
 .summarize table {
-  border: 1px solid #575c63;
   border-collapse: collapse;
+  border: none;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
 }
-.summarize table thead {
+.summarize table thead,
+.summarize table caption {
   font-family: Raleway-Regular, Arial, sans-serif;
   font-size: 1.2em;
   font-weight: normal;
@@ -104,27 +113,35 @@
 .summarize table tfoot {
   font-family: SourceSansPro-Regular, Arial, sans-serif;
 }
+.summarize table caption,
 .summarize table th {
   padding: 12px 8px 12px 8px;
-  background-color: #575c63;
-  color: #f0f1f3;
+  background-color: #2f4f4f;
+  color: #f7f7f7;
+}
+.summarize table caption {
+  background-color: #2f4f4f;
 }
 .summarize table tr:nth-child(even) {
-  background-color: #afc0d7;
-  color: #1f2122;
+  background-color: #f7f7f7;
+  color: #2e2e2e;
 }
 .summarize table tr:nth-child(odd) {
-  background-color: #d6dde8;
-  color: #1f2122;
+  background-color: #e7e7e7;
+  color: #2e2e2e;
 }
 .summarize table td {
   padding: 8px 16px;
 }
 /* forms */
+.summarize form {
+  background-color: #e7e7e7;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+}
 .summarize form table,
 .summarize form tr,
 .summarize form td {
-  background-color: #d6dde8;
+  background-color: #e7e7e7;
 }
 .summarize form table input[type="text"],
 .summarize form tr input[type="text"],
@@ -136,9 +153,46 @@
 .summarize form tr input[type="email"],
 .summarize form td input[type="email"] {
   outline: none;
-  background-color: #d6dde8;
+  background-color: #e7e7e7;
   border: none;
-  border-bottom: 1px solid #575c63;
+  border-bottom: 1px solid #5a7f7f;
   font-family: SourceSansPro-Regular, Arial, sans-serif;
   font-size: 1em;
+}
+.summarize form header {
+  background-color: #5a7f7f;
+  color: #f7f7f7;
+  font-family: Raleway-Regular, Arial, sans-serif;
+  font-size: 1.2em;
+  padding: 12px;
+}
+/* navigation */
+body.summarize > header {
+  background-color: #2f4f4f;
+  color: #b7b7b7;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+}
+body.summarize > header ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+body.summarize > header ul li {
+  float: left;
+}
+body.summarize > header ul li a,
+body.summarize > header ul li a:link,
+body.summarize > header ul li a:visited {
+  display: block;
+  color: #b7b7b7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Raleway-Medium, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  transition: background-color 0.2s ease-in-out;
+}
+body.summarize > header ul li a:hover {
+  background-color: #5a7f7f;
+  color: #fcfcfe;
 }
