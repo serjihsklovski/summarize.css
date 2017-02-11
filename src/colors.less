@@ -1,42 +1,65 @@
-/* base site's palette */
-@palette-base-color-1: #1f2122;
-@palette-base-color-2: #575c63;
-@palette-base-color-3: #afc0d7;
-@palette-base-color-4: #d6dde8;
-@palette-base-color-5: #f0f1f3;
+/* # site's palettes */
+
+/* ## palette 1 - cold */
+
+@palette-1-color-1: #2f4f4f;
+@palette-1-color-2: #5a7f7f;
+@palette-1-color-3: #83b7b7;
+
+/* ## palette 2 - warm */
+
+@palette-2-color-1: #4f0022;
+@palette-2-color-2: #7f0032;
+@palette-2-color-3: #b7003f;
+
+/* ## palette 3 - grey scale */
+
+@palette-3-color-1: #2e2e2e;
+@palette-3-color-2: #3f3f3f;
+@palette-3-color-3: #646464;
+@palette-3-color-4: #7f7f7f;
+@palette-3-color-5: #b7b7b7;
+@palette-3-color-6: #e7e7e7;
+@palette-3-color-7: #f7f7f7;
 
 /* # aliases */
 
 /* ## main section */
 
-@palette-main-bg: @palette-base-color-5;
-@palette-main-fg: @palette-base-color-2;
+@palette-main-bg: @palette-3-color-7;
+@palette-main-fg: @palette-3-color-1;
 
 /* ## tables */
 
-@palette-table-border: @palette-base-color-2;
-@palette-table-headers-bg: @palette-base-color-2;
-@palette-table-headers-fg: @palette-base-color-5;
-@palette-table-rows-even-bg: @palette-base-color-3;
-@palette-table-rows-even-fg: @palette-base-color-1;
-@palette-table-rows-odd-bg: @palette-base-color-4;
-@palette-table-rows-odd-fg: @palette-base-color-1;
+@palette-table-headers-bg: @palette-1-color-1;
+@palette-table-headers-fg: @palette-3-color-7;
+@palette-table-rows-odd-bg: @palette-3-color-6;
+@palette-table-rows-odd-fg: @palette-3-color-1;
+@palette-table-rows-even-bg: @palette-3-color-7;
+@palette-table-rows-even-fg: @palette-3-color-1;
 
 /* ## buttons */
-@palette-button-common-bg: @palette-base-color-1;
-@palette-button-common-fg: @palette-base-color-5;
-@palette-button-common-active-bg: @palette-base-color-2;
-@palette-button-common-active-fg: @palette-base-color-5;
+@palette-button-common-bg: @palette-1-color-1;
+@palette-button-common-fg: @palette-3-color-5;
+@palette-button-common-active-bg: @palette-1-color-2;
+@palette-button-common-active-fg: @palette-3-color-5;
 
 @palette-button-good-bg: #6A9764;
-@palette-button-good-fg: @palette-base-color-5;
+@palette-button-good-fg: @palette-3-color-5;
 @palette-button-good-hover-bg: #6CBA60;
 @palette-button-good-hover-fg: white;
 
 @palette-button-bad-bg: #976464;
-@palette-button-bad-fg: @palette-base-color-5;
+@palette-button-bad-fg: @palette-3-color-5;
 @palette-button-bad-hover-bg: #BA6161;
 @palette-button-bad-hover-fg: white;
 
 /* ## forms */
-@palette-form-bg: @palette-base-color-4;
+@color-form-bg: @palette-3-color-6;
+@color-form-header-bg: @palette-1-color-2;
+@color-form-header-fg: @palette-3-color-7;
+
+/* ## navigation */
+@palette-header-bg: @palette-1-color-1;
+@palette-header-fg: @palette-3-color-5;
+@palette-header-item-bg-hover: @palette-1-color-2;
